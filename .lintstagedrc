@@ -1,3 +1,4 @@
 {
-	"*.js": ["prettier --single-quote --use-tabs --write", "git add"]
+	"browsertest/{setup,runTests}.js": ["prettier --single-quote --use-tabs --write", "git add"],
+	"{cypress/integration,src,test}/**/*.js": ["prettier --single-quote --use-tabs --write", "git add"]
 }
